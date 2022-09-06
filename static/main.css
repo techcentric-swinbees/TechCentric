@@ -1,0 +1,59 @@
+#logo_span{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.heading_container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+#events_section{
+    flex-wrap: wrap;
+    display:flex;
+    justify-content: space-around;
+}
+
+#events_section > .event_card{
+    margin: 8px;
+}
+
+.about_club, .club_official_card, .club_advisor_card {
+    margin: 10px;
+}
+
+.card_container_div, #club_officials, #club_advisors {
+    display: flex;
+    justify-self: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    margin: 10px;
+}
+
+.join_card {
+    width: 300px;
+    margin: 10px;
+}
+
+#homepage_section{
+    width: 60vw;
+}
+
+.advisor_img{
+    width: 100%;
+}
+
+#join_main_cont, #hompage_main_cont{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 550px) {
+    #homepage_section {
+        width: 100vw;
+    }
+}
